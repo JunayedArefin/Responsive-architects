@@ -39,6 +39,11 @@
     margin: 116px 26% 50px 26%;
     text-align: center;
 }
+.herotitle{
+    font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .heroinfo p{
     margin: 20px;
 }
@@ -51,11 +56,6 @@
     font-size: 15px;
     font-weight: 600;
     color: white;
-}
-.herotitle{
-    font-size: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 .banner img{
@@ -260,6 +260,7 @@
 }
 @media screen and (max-width:576px) {
     .navbar{
+        padding-top: 30px;
         padding-left: 5%;
         padding-right:5%;
     }
@@ -280,7 +281,7 @@
         padding: 10px;
     }
     .heroinfo{
-        margin: 116px 5% 50px 5%;
+        margin: 50px 2% 50px 2%;
         text-align: center;
     }
     .heroinfo p{
@@ -409,7 +410,7 @@
             padding: 10px;
         }
         .heroinfo{
-            margin: 116px 5% 50px 5%;
+            margin: 96px 5% 50px 5%;
             text-align: center;
         }
         .heroinfo p{
