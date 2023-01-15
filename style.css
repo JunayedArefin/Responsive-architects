@@ -54,11 +54,10 @@
 }
 .herotitle{
     font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.herotitle h1{
-    font-size: 50px;
-}
 .banner img{
     width: 80%;
 }
@@ -93,12 +92,6 @@
     margin-left: 73px;
     width: 100%;
 }
-.infotitle h1{
-    font-size: 45px;
-    font-weight: 500;
-    flex-wrap: wrap;
-    color: #727272;
- }
 
  .bar{
     background-color:#FF900E ;
@@ -132,10 +125,17 @@
     flex-wrap: wrap;
     width: 90%;
 }
+.sponsorhead h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
 .infotitlesec{
     display: flex;
     align-items: center;
     padding-bottom: 2%;
+    margin-bottom: 30px;
 }
 
 .infotitlethree{
@@ -341,7 +341,7 @@
         width: 160px;
         height: 15%;
         position: absolute;
-        margin-top: 104%;
+        margin-top: 100%;
         margin-left: -5%;
     }
     .yearbox h1{
@@ -355,16 +355,34 @@
         margin-bottom: 10%;
     }
     .sponsorhead p{
-        padding-left: 15%;
-        padding-right: 15%;
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0;
     }
     .sponsorbody{
         margin-top: 5%;
     }
     .sponsorbody img{
-        height: 35px;
-        padding-top: 5%;
+        height: 30px;
+        padding-top: 25px;
         gap: 30px;
+    }
+    .sponsorhead h1{
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+    }
+    .herotitle{
+        font-size: 40px;
+    }
+    .infotitle{
+        font-size: 35px;
+        margin-bottom: 10px
+    }
+    .infotitlethree{
+        font-size: 35px;
     }
 }
 
@@ -452,13 +470,15 @@
         .sponsorhead p{
             padding-left: 15%;
             padding-right: 15%;
+            padding-bottom: 0;
+            padding-top: 0;
         }
         .sponsorbody{
             margin-top: 5%;
         }
         .sponsorbody img{
             height: 35px;
-            padding-top: 5%;
+            padding-top: 25px;
             gap: 30px;
         }
 
@@ -469,7 +489,7 @@
             width: 230px;
             height: 20%;
             position: absolute;
-            margin-top: 104%;
+            margin-top: 100%;
             margin-left: -5%;
         }
         .yearbox h1{
@@ -481,6 +501,10 @@
             font-size: 15px;
             color: white;
             margin-bottom: 10%;
+        }
+        .herotitle{
+            margin-left: 15%;
+            margin-right: 15%;
         }
 
 }
