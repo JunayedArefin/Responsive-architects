@@ -76,8 +76,8 @@
 }
 .imagebox{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 50px;
+    grid-template-columns: repeat(2,2fr);
+    gap: 30px;
     width: 100%;
 }
 .imagebox div img{
@@ -141,10 +141,11 @@
     width: 100%;
 }
 .infocard{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     margin-top: 20px;
     padding: 30px;
     border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 4px 15px 0 rgba(0, 0, 0, 0.1);
 }
 
 .imagesection{
@@ -161,9 +162,11 @@
     background-color:#FF900E ;
     text-align: center;
     border-radius: 8px;
-    width: 20%;
+    width: 230px;
     height: 20%;
     position: absolute;
+    margin-top: 43%;
+    margin-left: -2%;
 }
 .yearbox h1{
     font-size: 50px;
@@ -312,6 +315,26 @@
         padding-bottom: 1%;
     }
 
+    .yearbox{
+        background-color:#FF900E ;
+        text-align: center;
+        border-radius: 8px;
+        width: 160px;
+        height: 15%;
+        position: absolute;
+        margin-top: 104%;
+        margin-left: -5%;
+    }
+    .yearbox h1{
+        font-size: 25px;
+        margin-top: 13%;
+        color: white;
+    }
+    .yearbox p{
+        font-size: 15px;
+        color: white;
+        margin-bottom: 10%;
+    }
     .sponsorhead p{
         padding-left: 15%;
         padding-right: 15%;
@@ -324,4 +347,121 @@
         padding-top: 5%;
         gap: 30px;
     }
+}
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+        .navbar{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+         .logo{
+            font-size: 30px;
+            font-weight: 700;
+         }
+        .option{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            justify-content: center;
+    
+        }
+        .option li a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+        .heroinfo{
+            margin: 116px 5% 50px 5%;
+            text-align: center;
+        }
+        .heroinfo p{
+            margin: 20px;
+        }
+        .banner img{
+            width: 90%;
+        }
+    
+        .banner{
+            text-align: center;
+            padding-bottom: 5%;
+        }
+        .secone{
+            display: flex;
+            flex-direction: column;
+            margin: 50px 5% 50px 5%;
+        }
+        .infocardsec{
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            gap: 30px;
+        }
+        .imagebox{
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            gap: 10px;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        .imagebox div img{
+            width: 100%;
+        }
+        .infobox{
+            margin-left: 60px;
+            margin-bottom: 50px;
+        }
+        .imagesection{
+        margin-top: 50px;
+        }
+        .factbody{
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            margin-top: 8%;
+            justify-content: center;
+            gap: 20px;
+        }
+        .box{
+            padding-bottom: 5%;
+            padding-top: 5%;
+            border-radius: 10px;
+        }
+        .box img{
+            height: 40px;
+            padding-bottom: 1%;
+        }
+    
+        .sponsorhead p{
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .sponsorbody{
+            margin-top: 5%;
+        }
+        .sponsorbody img{
+            height: 35px;
+            padding-top: 5%;
+            gap: 30px;
+        }
+
+        .yearbox{
+            background-color:#FF900E ;
+            text-align: center;
+            border-radius: 8px;
+            width: 230px;
+            height: 20%;
+            position: absolute;
+            margin-top: 104%;
+            margin-left: -5%;
+        }
+        .yearbox h1{
+            font-size: 35px;
+            margin-top: 13%;
+            color: white;
+        }
+        .yearbox p{
+            font-size: 15px;
+            color: white;
+            margin-bottom: 10%;
+        }
+
 }
