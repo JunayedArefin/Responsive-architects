@@ -82,6 +82,12 @@
 }
 .imagebox div img{
     width: 110%;
+    will-change: transform;
+    transition: transform 450ms;
+}
+.imagebox div img:hover{
+    transition: transform 150ms;
+    transform: translateY(-10px);
 }
 .infobox{
     margin-left: 73px;
@@ -140,13 +146,22 @@
 .infosection{
     width: 100%;
 }
+
 .infocard{
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
     padding: 30px;
     border-radius: 6px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+    will-change: transform;
+    transition: transform 450ms;
 }
+
+.infocard:hover{
+    transition: transform 150ms;
+    transform: translateY(-10px);
+}
+
 
 .imagesection{
     display: flex;
@@ -194,6 +209,12 @@
     border: 2px solid #FF900E;
     border-radius: 6px;
     text-align: center;
+    will-change: transform;
+    transition: transform 450ms;
+}
+.box:hover{
+    transition: transform 150ms;
+    transform: translateY(-10px);
 }
 .box img{
     height: 30px;
@@ -249,8 +270,6 @@
     .option{
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
-        border-radius: 5px;
         text-align: left;
         justify-content: center;
 
